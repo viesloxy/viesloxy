@@ -4,7 +4,6 @@
 class InformaticsEngineering {
     public readonly name = "Vito Aditya"
     public major = "Informatics Engineering"
-    public roles = ["Product Designer", "Web Development Enthusiast"]
     public languages = ["id_ID", "en_US"]
 
     sayHello() {
