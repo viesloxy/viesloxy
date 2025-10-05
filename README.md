@@ -6,7 +6,6 @@ class InformaticsEngineering {
     public major = "Informatics Engineering"
     public roles = ["Product Designer", "Web Development Enthusiast"]
     public languages = ["id_ID", "en_US"]
-    public techStack = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Figma"]
 
     sayHello() {
         console.log("Hi 👋! I'm Vito Aditya — a Product Designer and Web Development Enthusiast passionate about creating meaningful digital experiences.")
@@ -23,7 +22,7 @@ class InformaticsEngineering {
     }
 }
 
-const me = new InformaticsEngineer()
+const me = new InformaticsEngineering()
 me.sayHello()
 
 me.learnTechStack("Next.js").learnTechStack("Node.js")
