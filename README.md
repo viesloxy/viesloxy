@@ -26,4 +26,8 @@ $vito->explore("full-stack web development");
 
 ```
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/viesloxy/viesloxy/main/psht-seeklogo.png" alt="psht logo" width="200" />
+</div>
+
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=viesloxy)
