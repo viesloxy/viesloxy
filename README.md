@@ -1,7 +1,7 @@
 ## Hi! I'm Veeto
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/viesloxy/viesloxy/main/dreamybull-ambatukam.gif" alt="mas amba" width="200" />
+    <img src="https://raw.githubusercontent.com/viesloxy/viesloxy/main/dreamybull-ambatukam.gif" alt="mas amba" width="3000" />
 </div>
 
 ```typescript
