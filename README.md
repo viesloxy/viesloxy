@@ -1,30 +1,27 @@
 ## Hi! I'm Veeto
 
 ```typescript
-class InformaticsEngineering {
-    public readonly name = "Vito Aditya"
-    public major = "Informatics Engineering"
-    public languages = ["id_ID", "en_US"]
+<?php
 
-    sayHello() {
-        console.log("Hi 👋! I'm Vito Aditya — a Product Designer and Web Development Enthusiast passionate about creating meaningful digital experiences.")
+class Viesloxy {
+    private string $name = "Vito Aditya";
+    private string $major = "Informatics Engineering";
+
+    public function introduce(): void {
+        echo "Hi 👋 I'm {$this->name}, an {$this->major} student who loves exploring technology and design to create meaningful digital experiences.\n";
     }
 
-    learnTechStack(tech: string) {
-        this.techStack.push(tech)
-        return this
-    }
-
-    learnLanguage(lang: string) {
-        this.languages.push(lang)
-        return this
+    public function explore(string $focus): void {
+        echo "🔍 Currently exploring {$focus}.\n";
     }
 }
 
-const me = new InformaticsEngineering()
-me.sayHello()
+$vito = new Viesloxy();
+$vito->introduce();
 
-me.learnTechStack("Next.js").learnTechStack("Node.js")
+$vito->explore("full-stack web development");
+
+?>
 ```
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=viesloxy)
