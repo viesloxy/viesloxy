@@ -6,9 +6,10 @@
 class Viesloxy {
     private string $name = "Vito Aditya";
     private string $major = "Informatics Engineering";
+    private string $university = "Airlangga University";
 
     public function introduce(): void {
-        echo "Hi 👋 I'm {$this->name}, an {$this->major} student who loves exploring technology and design to create meaningful digital experiences.\n";
+        echo "Hi 👋 I'm {$this->name}, an {$this->major} student at {$this->university} who loves exploring technology and design to create meaningful digital experiences.\n";
     }
 
     public function explore(string $focus): void {
@@ -22,6 +23,7 @@ $vito->introduce();
 $vito->explore("full-stack web development");
 
 ?>
+
 ```
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=viesloxy)
